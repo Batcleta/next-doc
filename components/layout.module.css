@@ -1,0 +1,25 @@
+.container {
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+
+    display: grid;
+    grid-template-areas: 'user main' ;
+    grid-template-columns: auto 1fr;
+    gap: 1.5rem
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    grid-area: user;
+}
+
+.main{
+    grid-area: main;
+}
+
+.backToHome {
+    margin: 3rem 0 0;
+}
